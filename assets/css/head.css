@@ -60,7 +60,7 @@ html {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
 }
-#footer .kbpqkG {
+#footer .row {
   grid-area: 1 / 5 / 2 / 6;
   display: flex;
   justify-content: center;
@@ -69,7 +69,7 @@ html {
   box-sizing: border-box;
   padding: 0px;
 }
-#footer .kbpqkG .jNbfsA {
+#footer .row .item {
   display: inline-block;
   vertical-align: top;
   font-family: Roboto, sans-serif;
@@ -90,22 +90,22 @@ html {
   border-radius: 0px;
   box-sizing: border-box;
 }
-#footer .kbpqkG .jNbfsA:hover {
+#footer .row .item:hover {
   background-color: rgb(237, 228, 206);
   color: rgb(0, 0, 0);
 }
-#footer .kbpqkG .jNbfsA:active {
+#footer .row .item:active {
   margin: 4px 0px 20px;
   padding: 3px 10px;
   background-color: rgb(237, 228, 206);
   box-shadow: none;
   color: rgb(0, 0, 0);
 }
-#footer .kbpqkG .jNbfsA svg {
+#footer .row .item svg {
   display: inline-block;
   font-size: 24px;
 }
-#footer .kbpqkG .jNbfsA span {
+#footer .row .item span {
   display: inline-block;
   vertical-align: top;
   line-height: 23px;
@@ -113,7 +113,7 @@ html {
   font-size: 1.1em;
   font-weight: 300;
 }
-#footer .kbpqkG .footerspan {
+#footer .row .footerspan {
   font-family: Roboto, sans-serif;
   font-weight: 300;
   font-size: 16px;
